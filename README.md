@@ -8,13 +8,27 @@
 </p>
 
 ## About The API 
-This is an REST endpoint for ranking athletes in movement scores. It was built as a test case, using Docker containers and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
+This is an REST endpoint for ranking athletes in movement scores. It was built as a test case.
+
+
+## Technologies and Tools
+This api was built using Docker compose for development enviroment and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
 <br>
 Read more about Laravel Sail here: 
 https://laravel.com/docs/11.x/sail
 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Steps to development
+You can simply run the project on your machine, but there are a few steps you need to configure first:
+<br>
+<ul>
+    <li>
+        1 - 
+    </li>
+    <li>
+        2- 
+    </li>
+</ul>
 
 
 ## References
