@@ -37,15 +37,14 @@ You can simply run the project on your machine, if you have docker environment:
     <br>
      <br>
 ```
-    git clone https://github.com/juliazschwartz/ranking-api.git
-
+git clone https://github.com/juliazschwartz/ranking-api.git
 ```
     <br>
     <br>
     
-    ```
-    cd ranking-api
-    ``` 
+```
+cd ranking-api
+``` 
 
  2- -Migrations and Seeders:
         Laravel sail already manages volumes, so the database presented here should be already populated.
