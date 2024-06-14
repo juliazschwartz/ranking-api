@@ -1,13 +1,15 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-<h1>Ranking API for athletes</h1>
+<h1><strong>Ranking API for athletes</strong></h1>
 <p align="center">
-<a href="https://laravel.com/docs/11.x/sail"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+    
 </p>
 
 ## About The API 
 
 This project was built as a test case. I was built using Docker containers and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 read more about Laravel Sail: 
 https://laravel.com/docs/11.x/sail
 
