@@ -84,7 +84,7 @@ For that, just execute:
 
 <br>
 should look like this:
-<br><img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
+<br><img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png" width="700"></img>
 
 should look like this:
 <img src="https://github.com/juliazschwartz/ranking-api/blob/main/seeders_executadas.png" width="700"></img>
