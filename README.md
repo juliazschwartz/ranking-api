@@ -1,5 +1,5 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-<h1><strong>Ranking API for athletes</strong></h1>
+<h1><strong>Ranking athletes performance API </strong></h1>
 <p align="center">
 <img src= "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white"></img>
 <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"></img>
@@ -8,7 +8,9 @@
 </p>
 
 ## About The API 
-This is an REST endpoint for ranking athletes in movement scores. It was built as a test case.
+The Athlete Performance Tracking API is a RESTful service built with Laravel to manage and track athletes' performance records in various movements. The API allows CRUD operations for athletes, movements, and personal records, providing an efficient way to record and retrieve performance data. Additionally, it includes endpoints to rank athletes based on their performance in specific movements.It was built as a test case.
+
+
 
 
 ## Technologies and Tools
