@@ -41,10 +41,11 @@ You can simply run the project on your machine, if you have docker environment:
 
 ```
     <br>
-     <br>
-```
+    <br>
+    
+    ```
     cd ranking-api
-``` 
+    ``` 
 
  2- -Migrations and Seeders:
         Laravel sail already manages volumes, so the database presented here should be already populated.
