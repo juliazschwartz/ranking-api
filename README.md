@@ -98,7 +98,15 @@ For that, type "http://localhost/api/" in the URL field ("localhost" can be repl
 
 For detailed information about the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
       
- 
+4 - <strong>Testing it</strong>
+
+To test it, you can just run :
+```
+./vendor/bin/sail artisan test
+```
+should appear like this (all tests passing):
+
+
 
 
 
