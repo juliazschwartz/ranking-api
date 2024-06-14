@@ -104,6 +104,8 @@ for more info about the tests, access this <a href="">Wiki Page</a>
 
 <br>
 
+
+5- <strong>Using it</strong>
 <span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
 <br>
 For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
