@@ -5,7 +5,9 @@
 </p>
 
 ## About The API 
-The Athlete Performance Tracking API is a RESTful service built with Laravel to manage and track athletes' performance records in various movements. The API allows CRUD operations for athletes, movements, and personal records, providing an efficient way to record and retrieve performance data. Additionally, it includes endpoints to rank athletes based on their performance in specific movements.It was built as a test case.
+The Athlete Performance Tracking API is a RESTful service built with Laravel to manage and track athletes' performance records in various movements. The API allows CRUD operations for athletes, movements, and personal records, providing an efficient way to record and retrieve performance data. Additionally, it includes endpoints with a ranking system, retrieving ranking of athletes based on their performance in specific movements. It was built as a test case. 
+
+
 
 
 ## Technologies and Tools
