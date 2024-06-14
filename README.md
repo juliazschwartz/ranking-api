@@ -28,9 +28,11 @@ You can simply run the project on your machine, but there are a few steps you ne
         1 -Define permissions
         If Laravel sail throws "Permissions denied error",  Run this in terminal, inside your project (considering linux debian os, check the equivalent command for other operational systems):
         
-        ``` sail root-shell
-            cd ..
-            chown -R sail:sail html
+        ``` 
+        sail root-shell
+        cd ..
+        chown -R sail:sail html
+        
         ```
         
     </li>
