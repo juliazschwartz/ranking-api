@@ -81,7 +81,11 @@ For that, just execute:
 should look like this:
 <br>
 <img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
-     
+<br>
+```
+./vendor/bin/sail artisan migrate
+```
+<br>
 <br>
     ```
         ./vendor/bin/sail artisan db:seed
