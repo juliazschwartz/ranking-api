@@ -51,7 +51,14 @@ git clone https://github.com/juliazschwartz/ranking-api.git
 cd ranking-api
 ``` 
 
- 2- - <strong>Migrations and Seeders</strong>:
+ 2 - <strong>Run it</strong>:
+     <br>
+<span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
+```
+docker context use default
+```
+
+ 3 - <strong>Migrations and Seeders</strong>:
      <br>
      Laravel sail already manages volumes to store data, but there are stored in local machine, and are not presented here in this repository, so you should run the migration and seeders presented in this repository to populate the database.
      <br>
@@ -61,16 +68,11 @@ cd ranking-api
      ./vendor/bin/sail artisan migrate
      ```
      <br>
+     <br>
      ```
     ./vendor/bin/sail artisan db:seed
     ```
-
- 3 - <strong>Run it</strong>:
-     <br>
-<span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
-```
-docker context use default
-```
+    <br>
 
 <span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
  ```
