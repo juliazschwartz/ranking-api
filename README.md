@@ -68,20 +68,22 @@ it should look like this: <br>
 <br>
 
  3 - <strong>Migrations and Seeders</strong>:
-     <br>
-     Laravel sail already manages volumes to store data, but there are stored in local machine, and are not presented here in this repository, so you should run the migration and seeders presented in this repository to populate the database.
-     <br>
-     For that, just execute:
-     <br>
-     <br>
-     ```
-     ./vendor/bin/sail artisan migrate
-     ```
-     <br>
-     should look like this:
-     <img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
+<br>
+Laravel sail already manages volumes to store data, but there are stored in local machine, and are not presented here in this repository, so you should run the migration and seeders presented in this repository to populate the database.
+<br>
+For that, just execute:
+<br>
+<br>
+```
+./vendor/bin/sail artisan migrate
+```
+<br>
+<br>
+should look like this:
+<br>
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
      
-     <br>
+<br>
      ```
     ./vendor/bin/sail artisan db:seed
     ```
