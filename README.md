@@ -8,32 +8,14 @@
 </p>
 
 ## About The API 
-
-This project was built as a test case. It was built using Docker containers and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
+This is an REST endpoint for ranking athletes in movement scores. It was built as a test case, using Docker containers and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
 <br>
 Read more about Laravel Sail here: 
 https://laravel.com/docs/11.x/sail
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-<h1 align="center">Article Model</h1>
-<p align="center"><i>Repository for versioning and project documentation used during the series of articles on GitHub.</i></p>
-
-Para finalizar o nosso README podemos adicionar estatísticas sobre o repositório como Linguagem mais utilizada, Número de linguagens presentes, qualidade do código e muitas outras através da ferramenta oferecida pela Codacy. Não abordaremos aqui como cadastrar seu repositório e ter acesso a estas estatísticas já que no site deles já tem uma documentação completa sobre isto. Veja como fica:
-
-![added-statistics-to-structure](https://raw.githubusercontent.com/balta-io/blog/main/documentacao-com-github/images/added-statistics-to-structure.jpg)
-
-
-## Running
-dotnet run
 
 ## References
 [About issues - GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
