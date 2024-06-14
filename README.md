@@ -106,7 +106,8 @@ To test it, you can just run :
 ```
 should appear like this (all tests passing):
 <br>
-<img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/tests.jpeg"></img>
+<br>
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/tests.jpeg" width="700"></img>
 
 for more info about the tests, access this <a href="">Wiki Page</a>
 
