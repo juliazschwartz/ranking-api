@@ -24,8 +24,10 @@ https://laravel.com/docs/11.x/sail
 You can simply run the project on your machine, but there are a few steps you need to configure first:
 <br>
 
-
-        1 -Define permissions
+<ul>
+    
+    <li>
+  1 -Define permissions
         If Laravel sail throws "Permissions denied error",  Run this in terminal, inside your project (considering linux debian os, check the equivalent command for other operational systems):
         
         ``` 
@@ -34,12 +36,17 @@ You can simply run the project on your machine, but there are a few steps you ne
         chown -R sail:sail html
         
         ```
-        
+    
+    </li>       
     <li>
         2- 
     </li>
 
 
+    
+</ul>
+      
+ 
 
 ## References
 [Documentação Completa](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
