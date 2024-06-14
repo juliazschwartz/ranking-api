@@ -47,10 +47,12 @@ cd ranking-api
 
  2- - <strong>Migrations and Seeders</strong>:
      <br>
+         <br>
      Laravel sail already manages volumes, so the database presented here should be already populated.
 
  3 - <strong>Run it</strong>:
      <br>
+         <br>
 <span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
 ```
 docker context use default
