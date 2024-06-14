@@ -85,7 +85,7 @@ For that, just execute:
 should look like this:
 <br><img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/executando_migrations.png" width="700"></img>
 <br>
-<img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/seeders_executadas.png" width="700"></img>
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/seeders_executadas.ong" width="700"></img>
 <br>
 
       
