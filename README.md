@@ -35,7 +35,6 @@ You can simply run the project on your machine, if you have docker environment:
 1- <strong>Instalation</strong> :
     Clone this repository:
     <br>
-     <br>
 ```
 git clone https://github.com/juliazschwartz/ranking-api.git
 ```
@@ -47,12 +46,10 @@ cd ranking-api
 
  2- - <strong>Migrations and Seeders</strong>:
      <br>
-         <br>
      Laravel sail already manages volumes, so the database presented here should be already populated.
 
  3 - <strong>Run it</strong>:
      <br>
-         <br>
 <span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
 ```
 docker context use default
