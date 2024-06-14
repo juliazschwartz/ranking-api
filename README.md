@@ -6,7 +6,10 @@
 
 ## About The API 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This project was built as a test case. I was built using Docker containers and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+read more about Laravel Sail: 
+https://laravel.com/docs/11.x/sail
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
