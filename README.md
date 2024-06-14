@@ -63,7 +63,7 @@ docker context use default
  ```
 
 it should look like this: <br>
-<img src="https://github.com/juliazschwartz/ranking-api/blob/main/1.jpeg" width="700">
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/1.jpeg" width="700">
 </img>
 <br>
 
@@ -84,10 +84,10 @@ For that, just execute:
 
 <br>
 should look like this:
-<br><img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png" width="700"></img>
+<br><img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/executando_migrations.png" width="700"></img>
 <br>
 should look like this:
-<img src="https://github.com/juliazschwartz/ranking-api/blob/main/seeders_executadas.png" width="700"></img>
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/seeders_executadas.png" width="700"></img>
 <br>
 
 
@@ -95,7 +95,7 @@ should look like this:
 <br>
 For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
 <br>
-<img src= "https://github.com/juliazschwartz/ranking-api/blob/main/seeders_executadas.png" width="700"></img> 
+<img src= "https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/seeders_executadas.png" width="700"></img> 
 
 For detailed information about the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
       
