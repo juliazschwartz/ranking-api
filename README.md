@@ -27,8 +27,9 @@ You can simply run the project on your machine, but there are a few steps you ne
     
 1- Instalation :
    1 - Clone this repository:
-    ```sh
+    ```
     git clone https://github.com/your-repo/athlete-performance-tracking-api.git
+    
     cd athlete-performance-tracking-api
     ``` 
 
