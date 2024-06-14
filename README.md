@@ -57,6 +57,15 @@ cd ranking-api
 ```
 docker context use default
 ```
+<span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
+ ```
+./vendor/bin/sail up
+ ```
+<br>
+it should look like this: <br>
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/1.jpeg" width="700">
+</img>
+<br>
 
  3 - <strong>Migrations and Seeders</strong>:
      <br>
@@ -68,19 +77,13 @@ docker context use default
      ./vendor/bin/sail artisan migrate
      ```
      <br>
-     <br>
      ```
     ./vendor/bin/sail artisan db:seed
     ```
     <br>
 
-<span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
- ```
-./vendor/bin/sail up
- ```
-it should look like this: <br>
-<img src="https://github.com/juliazschwartz/ranking-api/blob/main/1.jpeg" width="700">
-</img>
+
+
 
 <span>Now you are ready to make the CRUD operations in API. I recommend using Postman for it.
 For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
