@@ -73,9 +73,11 @@ it should look like this: <br>
      <br>
      For that, just execute:
      <br>
+     <br>
      ```
      ./vendor/bin/sail artisan migrate
      ```
+     <br>
      <br>
      ```
     ./vendor/bin/sail artisan db:seed
@@ -83,6 +85,7 @@ it should look like this: <br>
     <br>
 
 <span>Now you are ready to make the CRUD operations in API. I recommend using Postman for it.
+<br>
 For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
 <br>
 <img src= "https://github.com/juliazschwartz/ranking-api/blob/main/postman-example.png" width="700"></img> 
