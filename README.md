@@ -9,8 +9,9 @@
 
 ## About The API 
 
-This project was built as a test case. I was built using Docker containers and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
-read more about Laravel Sail: 
+This project was built as a test case. It was built using Docker containers and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
+<br>
+Read more about Laravel Sail here: 
 https://laravel.com/docs/11.x/sail
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
