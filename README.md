@@ -80,9 +80,7 @@ For that, just execute:
 <br>
 should look like this:
 <br><img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
-<br>```
-./vendor/bin/sail artisan db:seed```
-<br>
+
 should look like this:
 <img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
 
