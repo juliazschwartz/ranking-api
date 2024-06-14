@@ -14,11 +14,16 @@ The Athlete Performance Tracking API is a RESTful service built with Laravel to 
 
 
 ## Technologies and Tools
-This api was built using Docker compose for development enviroment and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
+This api was built using Docker compose running a nginx image and a mysql image for development enviroment and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
 <br>
 Read more about Laravel Sail here: 
 https://laravel.com/docs/11.x/sail
 
+<img src= "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white"></img>
+<img src= "https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white"></img>
+<img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"></img>
+<img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white"></img>
+<img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"></img>
 
 ## Steps to development
 You can simply run the project on your machine, but there are a few steps you need to configure first:
