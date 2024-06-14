@@ -56,9 +56,11 @@ cd ranking-api
      Laravel sail already manages volumes to store data, but there are stored in local machine, and are not presented here in this repository, so you should run the migration and seeders presented in this repository to populate the database.
      <br>
      For that, just execute:
+     <br>
      ```
      ./vendor/bin/sail artisan migrate
      ```
+     <br>
      ```
     ./vendor/bin/sail artisan db:seed
     ```
