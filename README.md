@@ -23,7 +23,7 @@ https://laravel.com/docs/11.x/sail
 
 
 ## API complete Documentation
-<a href="https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis">Here the complete documentation</a>
+<a href="https://github.com/juliazschwartz/ranking-api/wiki">Here the complete documentation</a>
 
 
 
@@ -67,7 +67,7 @@ it should look like this: <br>
 <br>
 <img src= "https://github.com/juliazschwartz/ranking-api/blob/main/postman-example.png" width="700"></img> 
 
-For detailed information about the api, and how to use it, access <a href="https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis">here</a>
+For detailed information about the api, and how to use it, access <a href="https://github.com/juliazschwartz/ranking-api/wiki">here</a>
       
  
 
