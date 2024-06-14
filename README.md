@@ -82,7 +82,6 @@ For that, just execute:
 <br>
 
 
-<br>
 should look like this:
 <br><img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/executando_migrations.png" width="700"></img>
 <br>
