@@ -76,10 +76,7 @@ For that, just execute:
 <br>
 ```
 ./vendor/bin/sail artisan migrate
-```
 
-<br>
-```
 ./vendor/bin/sail artisan db:seed
 ```
 <br>
