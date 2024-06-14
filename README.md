@@ -25,11 +25,12 @@ You can simply run the project on your machine, but there are a few steps you ne
 <br>
 
     
-1- Instalation :
-   1 - Clone this repository:
+1- <strong>Instalation</strong> :
+    Clone this repository:
     ```
     git clone https://github.com/your-repo/athlete-performance-tracking-api.git
     ```
+    <br>
     ```
     cd athlete-performance-tracking-api
     ``` 
