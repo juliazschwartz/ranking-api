@@ -53,7 +53,7 @@ cd ranking-api
 
  2- - <strong>Migrations and Seeders</strong>:
      <br>
-     Laravel sail already manages volumes, so the database presented here should be already populated.
+     Laravel sail already manages volumes to store data, but there are stored in local machine, and are not presented here in this repository, so you should run the migration and seeders presented in this repository to populate the database.
 
  3 - <strong>Run it</strong>:
      <br>
