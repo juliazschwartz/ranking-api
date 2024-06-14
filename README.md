@@ -11,7 +11,7 @@ The Athlete Performance Tracking API is a RESTful service built with Laravel to 
 
 
 ## Technologies and Tools
-This api was built using Docker compose running a nginx image and a mysql image for development enviroment and  Laravel sail, a command-line interface for interacting with laravel's default docker development environment. 
+This api was built using Docker compose running a nginx image and a mysql image for development enviroment and <strong>Laravel sail</strong>, a command-line interface for interacting with laravel's default docker development environment. 
 <br>
 Read more about Laravel Sail here: 
 https://laravel.com/docs/11.x/sail
