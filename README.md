@@ -24,10 +24,7 @@ https://laravel.com/docs/11.x/sail
 You can simply run the project on your machine, but there are a few steps you need to configure first:
 <br>
 
-<ul>
     
-    <li>
-
 1- Instalation :
    1 - Clone this repository:
     ```sh
@@ -41,16 +38,12 @@ You can simply run the project on your machine, but there are a few steps you ne
     
    ```sh
         sail root-shell
-    ```
- ```sh
+   
         cd ..
-```
- ```sh
+
         chown -R sail:sail html
-        
    ```
     
-</ul>
       
  
 
