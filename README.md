@@ -29,32 +29,26 @@ You can simply run the project on your machine, but there are a few steps you ne
     <li>
 
 1- Instalation :
-<li>
-    Clone this repository:
-    ``` 
+   1 - Clone this repository:
+    ```sh
     git clone https://github.com/your-repo/athlete-performance-tracking-api.git
     cd athlete-performance-tracking-api
     ``` 
-    
-</li>
 
-  1 -Define permissions
+ 2- -Define permissions
         If Laravel sail throws "Permissions denied error",  Run this in terminal, inside your project (considering linux debian os, check the equivalent command for other operational systems):
         
     
    ```sh
         sail root-shell
+    ```
+ ```sh
         cd ..
+```
+ ```sh
         chown -R sail:sail html
         
    ```
-    
-    </li>       
-    <li>
-        2- 
-    </li>
-
-
     
 </ul>
       
