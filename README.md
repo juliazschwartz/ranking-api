@@ -20,13 +20,24 @@ https://laravel.com/docs/11.x/sail
 <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white"></img>
 <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"></img>
 
-## Steps to development
+## Steps to use
 You can simply run the project on your machine, but there are a few steps you need to configure first:
 <br>
 
 <ul>
     
     <li>
+
+1- Instalation :
+<li>
+    Clone this repository:
+    ``` 
+    git clone https://github.com/your-repo/athlete-performance-tracking-api.git
+    cd athlete-performance-tracking-api
+    ``` 
+    
+</li>
+
   1 -Define permissions
         If Laravel sail throws "Permissions denied error",  Run this in terminal, inside your project (considering linux debian os, check the equivalent command for other operational systems):
         
