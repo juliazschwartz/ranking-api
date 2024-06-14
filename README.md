@@ -39,7 +39,7 @@ You can simply run the project on your machine, if you have docker environment:
 <br>
 
     
-1- <h3>Instalation</h3> :
+1- <strong>Instalation</strong> :
     Clone this repository:
     <br>
 ```
@@ -51,7 +51,7 @@ git clone https://github.com/juliazschwartz/ranking-api.git
 cd ranking-api
 ``` 
 
- 2 - <h3>Run it</h3>:
+ 2 - <strong>Run it</strong>:
      <br>
 <span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
 ```
@@ -67,7 +67,7 @@ it should look like this: <br>
 </img>
 <br>
 
- 3 - <h3>Migrations and Seeders</h3>:
+ 3 - <strong>Migrations and Seeders</strong>:
 <br>
 Laravel sail already manages volumes to store data, but there are stored in local machine, and are not presented here in this repository, so you should run the migration and seeders presented in this repository to populate the database.
 <br>
@@ -89,7 +89,7 @@ should look like this:
 <br>
 
       
-4 - <h3>Testing it</h3>
+4 - <strong>Testing it</strong>
 
 To test it, you can just run :
 ```
@@ -100,10 +100,11 @@ should appear like this (all tests passing):
 <br>
 <img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/tests.jpeg" width="700"></img>
 
-for more info about the tests, access this <a href="">Wiki Page</a>
-
 <br>
 
+
+5- <strong>Using it</strong>
+<br>
 <span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
 <br>
 For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
