@@ -69,7 +69,8 @@ it should look like this: <br>
 <img src="https://github.com/juliazschwartz/ranking-api/blob/main/1.jpeg" width="700">
 </img>
 
-<span>Now you are ready to make the CRUD operations in API. I recommend using Postman for it. It will look like this:
+<span>Now you are ready to make the CRUD operations in API. I recommend using Postman for it.
+For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
 <br>
 <img src= "https://github.com/juliazschwartz/ranking-api/blob/main/postman-example.png" width="700"></img> 
 
