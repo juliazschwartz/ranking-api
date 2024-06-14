@@ -98,7 +98,7 @@ To test it, you can just run :
 should appear like this (all tests passing):
 <br>
 <br>
-<img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/tests.jpeg" width="700"></img>
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/tests.jpeg" width="600"></img>
 
 <br>
 
