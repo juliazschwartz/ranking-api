@@ -93,6 +93,7 @@ should look like this:
 <br>
 For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
 <br>
+<br>
 <img src= "https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/postman-example.png" width="700"></img> 
 
 For detailed information about the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
