@@ -26,6 +26,7 @@ https://laravel.com/docs/11.x/sail
 
 ## API complete Documentation
 <a href="https://github.com/juliazschwartz/ranking-api/wiki">Here the complete documentation</a>
+For detailed information about how to use the <strong>Endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
 
 
 
