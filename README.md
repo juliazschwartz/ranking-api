@@ -21,7 +21,7 @@ https://laravel.com/docs/11.x/sail
 <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"></img>
 
 ## Steps to use
-You can simply run the project on your machine, but there are a few steps you need to configure first:
+You can simply run the project on your machine, if you have docker environment:
 <br>
 
     
@@ -38,16 +38,20 @@ You can simply run the project on your machine, but there are a few steps you ne
     cd athlete-performance-tracking-api
     ``` 
 
- 2- -Define permissions
-        If Laravel sail throws "Permissions denied error",  Run this in terminal, inside your project (considering linux debian os, check the equivalent command for other operational systems):
-        
-    
+ 2- -Migrations and Seeders:
+        Laravel sail already manages volumes, so the database presented here should be already populated.
+
+ 3 - Run it:
+<span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
    ```sh
-        sail root-shell
-        cd ..
-        chown -R sail:sail html
-   ```
-    
+    docker context use default
+    ```
+<span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
+    ```sh
+    ./vendor/bin/sail up
+    ```
+        
+  
       
  
 
