@@ -69,7 +69,7 @@ it should look like this: <br>
 <br>
 <img src= "https://github.com/juliazschwartz/ranking-api/blob/main/postman-example.png" width="700"></img> 
 
-For detailed information about the api, and how to use it, access <a href="https://github.com/juliazschwartz/ranking-api/wiki">here</a>
+For detailed information about the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
       
  
 
