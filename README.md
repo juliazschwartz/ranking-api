@@ -106,7 +106,6 @@ for more info about the tests, access this <a href="">Wiki Page</a>
 
 
 5- <strong>Using it</strong>
-
 <br>
 <span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
 <br>
