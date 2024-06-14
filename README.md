@@ -39,8 +39,7 @@ You can simply run the project on your machine, if you have docker environment:
 ```
 git clone https://github.com/juliazschwartz/ranking-api.git
 ```
-    <br>
-    <br>
+
     
 ```
 cd ranking-api
