@@ -77,6 +77,14 @@ For that, just execute:
 ```
 ./vendor/bin/sail artisan migrate
 ```
+
+<br>
+```
+./vendor/bin/sail artisan db:seed
+```
+<br>
+
+
 <br>
 should look like this:
 <br><img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
