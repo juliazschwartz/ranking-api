@@ -64,7 +64,9 @@ it should look like this: <br>
 </img>
 
 <span>Now you are ready to make the CRUD operations in API. I recommend using Postman for it. It will look like this:
-<img src= "https://github.com/juliazschwartz/ranking-api/blob/main/postman-example.png"></img> 
+<img src= "https://github.com/juliazschwartz/ranking-api/blob/main/postman-example.png" width="200"></img> 
+
+For detailed information about the api, and how to use it, access <a href="https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis">here</a>
       
  
 
