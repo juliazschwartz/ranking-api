@@ -45,10 +45,12 @@ git clone https://github.com/juliazschwartz/ranking-api.git
 cd ranking-api
 ``` 
 
- 2- -Migrations and Seeders:
-        Laravel sail already manages volumes, so the database presented here should be already populated.
+ 2- - <strong>Migrations and Seeders</strong>:
+     <br>
+     Laravel sail already manages volumes, so the database presented here should be already populated.
 
- 3 - Run it:
+ 3 - <strong>Run it</strong>:
+     <br>
 <span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
 ```
 docker context use default
