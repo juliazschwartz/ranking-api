@@ -51,7 +51,9 @@ docker context use default
  ```
 ./vendor/bin/sail up
  ```
-        
+it should look like this: <br>
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/1.jpeg">
+</img>
   
       
  
