@@ -62,7 +62,9 @@ docker context use default
 it should look like this: <br>
 <img src="https://github.com/juliazschwartz/ranking-api/blob/main/1.jpeg">
 </img>
-  
+
+<span>Now you are ready to make the CRUD operations in API. I recommend using Postman for it. It will look like this:
+<img src= "https://github.com/juliazschwartz/ranking-api/blob/main/postman-example.png"></img> 
       
  
 
