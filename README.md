@@ -88,15 +88,6 @@ should look like this:
 <img src="https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/seeders_executadas.png" width="700"></img>
 <br>
 
-
-<span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
-<br>
-For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
-<br>
-<br>
-<img src= "https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/postman-example.png" width="700"></img> 
-
-For detailed information about the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
       
 4 - <strong>Testing it</strong>
 
@@ -111,8 +102,16 @@ should appear like this (all tests passing):
 
 for more info about the tests, access this <a href="">Wiki Page</a>
 
+<br>
 
+<span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
+<br>
+For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
+<br>
+<br>
+<img src= "https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/postman-example.png" width="700"></img> 
 
+For detailed information about the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
 
 
 
