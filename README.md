@@ -45,12 +45,16 @@ You can simply run the project on your machine, if you have docker environment:
 <span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
 
     ```sh
+    
     docker context use default
+    
      ```
 
 <span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
      ```sh
+     
     ./vendor/bin/sail up
+    
    ```
         
   
