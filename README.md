@@ -43,7 +43,7 @@ You can simply run the project on your machine, if you have docker environment:
     <br>
      <br>
     ```
-    cd athlete-performance-tracking-api
+    cd ranking-api
     ``` 
 
  2- -Migrations and Seeders:
