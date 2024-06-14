@@ -78,18 +78,17 @@ For that, just execute:
 ./vendor/bin/sail artisan migrate
 ```
 <br>
-<br>
 should look like this:
 <br>
 <img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
      
 <br>
-     ```
-    ./vendor/bin/sail artisan db:seed
-    ```
-    <br>
-    should look like this:
-    <img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
+```
+./vendor/bin/sail artisan db:seed
+```
+<br>
+should look like this:
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/executando_migrations.png"></img>
 
 <span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
 <br>
