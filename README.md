@@ -60,7 +60,7 @@ docker context use default
 ./vendor/bin/sail up
  ```
 it should look like this: <br>
-<img src="https://github.com/juliazschwartz/ranking-api/blob/main/1.jpeg">
+<img src="https://github.com/juliazschwartz/ranking-api/blob/main/1.jpeg" width="700">
 </img>
 
 <span>Now you are ready to make the CRUD operations in API. I recommend using Postman for it. It will look like this:
