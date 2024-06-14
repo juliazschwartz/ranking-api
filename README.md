@@ -37,7 +37,8 @@ You can simply run the project on your machine, if you have docker environment:
     <br>
      <br>
     ```
-    git clone https://github.com/your-repo/athlete-performance-tracking-api.git
+    git clone https://github.com/juliazschwartz/ranking-api.git
+
     ```
     <br>
      <br>
