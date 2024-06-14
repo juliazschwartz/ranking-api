@@ -31,7 +31,7 @@ https://laravel.com/docs/11.x/sail
 <br>
 For detailed information about how to use the <strong>Endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">this page of the project wiki</a>
 <br>
-For  <strong>examples of use</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Examples">here wiki</a>
+For  <strong>examples of use</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Examples">here</a>
 
 
 ## Steps to use
