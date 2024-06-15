@@ -39,7 +39,7 @@ You can simply run the project on your machine, if you have docker environment:
 <br>
 
     
-1- <strong>Instalation</strong> :
+1- <strong>Installation</strong> :
     Clone this repository:
     <br>
 ```
@@ -61,6 +61,7 @@ docker context use default
 
 Since none of the application's Composer dependencies, including Sail, will be installed after you clone the application's repository to your local computer, 
 run the following command to install application's dependencies. <br> This command uses a small Docker container containing PHP and Composer to install the application's dependencies:
+
 <br>
 ```
 docker run --rm \
@@ -72,7 +73,7 @@ docker run --rm \
 ```
 Now, <strong>replace the .env.example file, present in the root directory to .env</strong> to have the correct database configuration.
 
-3 - <strong>Setup</strong>:
+3 - <strong>Run it</strong>:
  
 <span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
  ```
@@ -106,7 +107,7 @@ should look like this:
 <br>
 
       
-5 - <strong>Testing it</strong>
+5 - <strong>Test it</strong>
 
 To test it, you can just run :
 ```
@@ -120,7 +121,7 @@ should appear like this (all tests passing):
 <br>
 
 
-6- <strong>Using it</strong>
+6- <strong>Use it</strong>
 <br>
 <span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
 <br>
