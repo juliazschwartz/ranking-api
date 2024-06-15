@@ -100,7 +100,9 @@ For that, just execute:
 ```
 ./vendor/bin/sail artisan migrate
 
-./vendor/bin/sail artisan db:seed
+./vendor/bin/sail artisan db:seed --class=AthleteSeeder
+./vendor/bin/sail artisan db:seed --class=MovementSeeder
+./vendor/bin/sail artisan db:seed --class=PersonalRecordSeeder
 ```
 <br>
 
