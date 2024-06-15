@@ -71,6 +71,7 @@ docker run --rm \
     composer install --ignore-platform-reqs
 ```
 
+Now, replace the .env.example file, present in the root directory to .env to have the correct database configuration.
 
 <span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
  ```
