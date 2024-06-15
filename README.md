@@ -130,7 +130,7 @@ should appear like this (all tests passing):
 
 6- <strong>Use it</strong>
 <br>
-For detailed information about how to use the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
+For detailed information about how to use the <strong>endpoints</strong> of this project, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
 <br>
 
 <span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it (link for download in the references section).
