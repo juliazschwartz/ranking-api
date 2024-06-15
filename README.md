@@ -142,7 +142,7 @@ For that, type "http://localhost/api/" in the URL field ("localhost" can be repl
 <img src= "https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/postman-example.png" width="700"></img> 
 
 
-7- <strong>References</strong> <br>
+7- <strong>External References</strong> <br>
 <ul>
     <li><a href="https://www.postman.com/">Postman</a> <br></li>
     <li><a href="https://www.postman.com/downloads/">Laravel Sail</a><br></li>
