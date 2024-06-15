@@ -73,7 +73,7 @@ docker run --rm \
 ```
 <br>
 
-Now, <strong>replace the .env.example file, present in the root directory to .env</strong> to have the correct database configuration (for Linux OS).
+Now, <strong>replace the .env.example file, present in the root directory to .env</strong> to have the correct database configuration (command for Linux OS, replace with equivalent if you are using another OS).
 ```
 cp .env.example .env
 ``` 
