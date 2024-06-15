@@ -39,7 +39,7 @@ You can simply run the project on your machine, if you have docker environment:
 <br>
 
     
-1- <strong>Instalation</strong> :
+1- <strong>Installation</strong> :
     Clone this repository:
     <br>
 ```
@@ -51,7 +51,7 @@ git clone https://github.com/juliazschwartz/ranking-api.git
 cd ranking-api
 ``` 
 
- 2 - <strong>Run it</strong>:
+ 2 - <strong>Setup</strong>:
      <br>
 <span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
 ```
@@ -62,6 +62,7 @@ docker context use default
 Since none of the application's Composer dependencies, including Sail, will be installed after you clone the application's repository to your local computer, 
 run the following command to install application's dependencies. <br> This command uses a small Docker container containing PHP and Composer to install the application's dependencies:
 <br>
+
 ```
 docker run --rm \
 -u "$(id -u):$(id -g)" \
@@ -70,8 +71,15 @@ docker run --rm \
     laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
 ```
+<br>
 
+Now, <strong>replace the .env.example file, present in the root directory to .env</strong> to have the correct database configuration.
+```
+cp .env.example .env
+``` 
 
+3 - <strong>Run it</strong>:
+ 
 <span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
  ```
 ./vendor/bin/sail up -d
@@ -82,7 +90,7 @@ it should look like this: <br>
 </img>
 <br>
 
- 3 - <strong>Migrations and Seeders</strong>:
+ 4 - <strong>Migrations and Seeders</strong>:
 <br>
 Laravel sail already manages volumes to store data, but there are stored in local machine, and are not presented here in this repository, so you should run the migration and seeders presented in this repository to populate the database.
 <br>
@@ -92,7 +100,9 @@ For that, just execute:
 ```
 ./vendor/bin/sail artisan migrate
 
-./vendor/bin/sail artisan db:seed
+./vendor/bin/sail artisan db:seed --class=AthleteSeeder
+./vendor/bin/sail artisan db:seed --class=MovementSeeder
+./vendor/bin/sail artisan db:seed --class=PersonalRecordSeeder
 ```
 <br>
 
@@ -104,7 +114,7 @@ should look like this:
 <br>
 
       
-4 - <strong>Testing it</strong>
+5 - <strong>Test it</strong>
 
 To test it, you can just run :
 ```
@@ -118,16 +128,25 @@ should appear like this (all tests passing):
 <br>
 
 
-5- <strong>Using it</strong>
+6- <strong>Use it</strong>
 <br>
-<span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
+For detailed information about how to use the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
 <br>
-For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ). It will look like this: 
+
+<span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it (link for download in the references section).
+<br>
+<br>
+For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ), followed by the URL parameters for your request.<br> It will look like this: 
 <br>
 <br>
 <img src= "https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/postman-example.png" width="700"></img> 
 
-For detailed information about the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
+
+7- <strong>References</strong> <br>
+<ul>
+    <li><a href="https://www.postman.com/">Postman</a> <br></li>
+    <li><a href="https://www.postman.com/downloads/">Laravel Sail</a><br></li>
+</ul>
 
 
 
