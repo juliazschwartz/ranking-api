@@ -133,7 +133,7 @@ should appear like this (all tests passing):
 For detailed information about how to use the <strong>endpoints</strong>, access <a href="https://github.com/juliazschwartz/ranking-api/wiki/Endpoints">here</a>
 <br>
 
-<span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
+<span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it (link for download in the references section).
 <br>
 <br>
 For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ), followed by the URL parameters for your request.<br> It will look like this: 
@@ -145,7 +145,7 @@ For that, type "http://localhost/api/" in the URL field ("localhost" can be repl
 7- <strong>References</strong> <br>
 <ul>
     <li><a href="https://www.postman.com/">Postman</a> <br></li>
-    <li><a href="https://laravel.com/docs/8.x/sail#installing-composer-dependencies-for-existing-projects">Laravel Sail</a><br></li>
+    <li><a href="https://www.postman.com/downloads/">Laravel Sail</a><br></li>
 </ul>
 
 
