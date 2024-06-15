@@ -57,6 +57,22 @@ cd ranking-api
 ```
 docker context use default
 ```
+<br>
+
+Since none of the application's Composer dependencies, including Sail, will be installed after you clone the application's repository to your local computer, 
+run the following command to install application's dependencies. <br> This command uses a small Docker container containing PHP and Composer to install the application's dependencies:
+
+
+```
+docker run --rm \
+-u "$(id -u):$(id -g)" \
+    -v $(pwd):/var/www/html \
+    -w /var/www/html \
+    laravelsail/php82-composer:latest \
+    composer install --ignore-platform-reqs
+```
+
+
 <span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
  ```
 ./vendor/bin/sail up
