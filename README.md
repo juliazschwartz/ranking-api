@@ -145,7 +145,7 @@ For that, type "http://localhost/api/" in the URL field ("localhost" can be repl
 7- <strong>References</strong> <br>
 <ul>
     <li><a href="https://www.postman.com/">Postman</a> <br></li>
-    <li><a href="https://laravel.com/docs/8.x/sail#installing-composer-dependencies-for-existing-projects">Laravel Sail</a>  <br></li>
+    <li><a href="https://laravel.com/docs/8.x/sail#installing-composer-dependencies-for-existing-projects">Laravel Sail</a><br></li>
 </ul>
 
 
