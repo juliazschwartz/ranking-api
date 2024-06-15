@@ -61,8 +61,8 @@ docker context use default
 
 Since none of the application's Composer dependencies, including Sail, will be installed after you clone the application's repository to your local computer, 
 run the following command to install application's dependencies. <br> This command uses a small Docker container containing PHP and Composer to install the application's dependencies:
-
 <br>
+
 ```
 docker run --rm \
 -u "$(id -u):$(id -g)" \
@@ -71,6 +71,8 @@ docker run --rm \
     laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
 ```
+<br>
+
 Now, <strong>replace the .env.example file, present in the root directory to .env</strong> to have the correct database configuration.
 
 3 - <strong>Run it</strong>:
