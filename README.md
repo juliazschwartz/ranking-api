@@ -74,7 +74,7 @@ docker run --rm \
 
 <span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
  ```
-./vendor/bin/sail up
+./vendor/bin/sail up -d
  ```
 
 it should look like this: <br>
