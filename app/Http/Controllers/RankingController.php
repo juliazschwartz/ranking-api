@@ -22,15 +22,20 @@ class RankingController extends Controller
             ->unique('athlete_id'); // Seleciona apenas o melhor valor de cada atleta
 
         $ranking = [];
-        $position = 1;
-
+        $previousValue = null;
+        $position = 0;
+	  
         foreach ($records as $record) {
+          if ($record->value !== $previousValue) {
+                $position++;
+            }
             $ranking[] = [
-                'position' => $position++,
+                'position' => $position,
                 'athlete' => $record->athlete->name,
                 'value' => $record->value,
                 'date' => $record->date
             ];
+              $previousValue = $record->value;
         }
 
         return response()->json([
