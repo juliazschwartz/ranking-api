@@ -135,7 +135,7 @@ For detailed information about how to use the <strong>endpoints</strong>, access
 <br>
 <span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
 <br>
-For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ), followed by the URL parameters for your request. It will look like this: 
+For that, type "http://localhost/api/" in the URL field ("localhost" can be replaced by your local IP ), followed by the URL parameters for your request.<br> It will look like this: 
 <br>
 <br>
 <img src= "https://github.com/juliazschwartz/ranking-api/blob/main/images_read_me/postman-example.png" width="700"></img> 
