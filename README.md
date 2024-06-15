@@ -51,7 +51,7 @@ git clone https://github.com/juliazschwartz/ranking-api.git
 cd ranking-api
 ``` 
 
- 2 - <strong>Run it</strong>:
+ 2 - <strong>Setup</strong>:
      <br>
 <span> If you are in Linux OS, and docker compose is already installed, execute this command: </span>
 ```
@@ -70,9 +70,10 @@ docker run --rm \
     laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
 ```
-
 Now, <strong>replace the .env.example file, present in the root directory to .env</strong> to have the correct database configuration.
 
+3 - <strong>Setup</strong>:
+ 
 <span>Now, lets execute the container with sail up command (equivalent to compose up)</span>
  ```
 ./vendor/bin/sail up -d
@@ -83,7 +84,7 @@ it should look like this: <br>
 </img>
 <br>
 
- 3 - <strong>Migrations and Seeders</strong>:
+ 4 - <strong>Migrations and Seeders</strong>:
 <br>
 Laravel sail already manages volumes to store data, but there are stored in local machine, and are not presented here in this repository, so you should run the migration and seeders presented in this repository to populate the database.
 <br>
@@ -105,7 +106,7 @@ should look like this:
 <br>
 
       
-4 - <strong>Testing it</strong>
+5 - <strong>Testing it</strong>
 
 To test it, you can just run :
 ```
@@ -119,7 +120,7 @@ should appear like this (all tests passing):
 <br>
 
 
-5- <strong>Using it</strong>
+6- <strong>Using it</strong>
 <br>
 <span>Now you are ready to make the CRUD operations in API. I recommend using <strong>Postman</strong> for it.
 <br>
