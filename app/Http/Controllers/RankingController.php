@@ -26,7 +26,7 @@ class RankingController extends Controller
         $position = 0;
 	  
         foreach ($records as $record) {
-          if ($record->value !== $previousValue) {
+          if ($record->value > $previousValue) {
                 $position++;
             }
             $ranking[] = [
